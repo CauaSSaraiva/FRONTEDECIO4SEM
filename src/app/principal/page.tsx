@@ -30,7 +30,7 @@ export default function Principal() {
     getDadosGerais()
 
     async function getDadosGrafico() {
-      const response = await fetch(`${process.env.NEXT_PUBLIC_URL_API}/dashboard//medicosEspecialidade`)
+      const response = await fetch(`${process.env.NEXT_PUBLIC_URL_API}/dashboard/medicosEspecialidade`)
       const dados = await response.json()
       setmedicosEspecialidade(dados)
     }
