@@ -9,7 +9,9 @@ function Cadmedicos() {
 
   useEffect(() => {
     async function getMedicos() {
-      const response = await fetch(`http://localhost:3004/medicos`)
+      const response = await fetch(
+        `${process.env.NEXT_PUBLIC_URL_API}/medicos`
+      );
       const dados = await response.json()
       setMedicos(dados)
     }
