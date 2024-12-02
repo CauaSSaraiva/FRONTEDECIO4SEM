@@ -8,7 +8,7 @@ function Cadclientes() {
 
   useEffect(() => {
     async function getclientes() {
-      const response = await fetch(`http://localhost:3004/clientes`)
+      const response = await fetch(`${process.env.NEXT_PUBLIC_URL_API}/clientes`)
       const dados = await response.json()
       setclientes(dados)
     }
