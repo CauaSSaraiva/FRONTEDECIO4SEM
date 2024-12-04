@@ -42,16 +42,16 @@ function Cadmedicos() {
                 Foto
               </th>
               <th scope="col" className="px-6 py-3">
-                Modelo do medico
+                Nome do medico
               </th>
               <th scope="col" className="px-6 py-3">
-                Marca
+                Especialidade
               </th>
               <th scope="col" className="px-6 py-3">
-                Ano
+                Idade
               </th>
               <th scope="col" className="px-6 py-3">
-                Preço R$
+                Preço Consulta R$
               </th>
               <th scope="col" className="px-6 py-3">
                 Ações
